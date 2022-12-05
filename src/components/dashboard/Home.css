@@ -1,0 +1,45 @@
+#navbar{
+    width:100%;
+    min-height:50px;
+    display: flex;
+    position:sticky;
+    justify-content: space-between;
+}
+
+#navbar .right-section ul{
+    list-style: none;
+}
+
+#navbar .right-section ul li{
+    display:inline-block;
+    margin-right:50px;
+}
+
+#navbar .right-section ul li a{
+    color:#000;
+    font-size:17px;
+    letter-spacing: 1px;
+    font-weight:500;
+    text-decoration:none;
+}
+
+#navbar .right-section {
+    margin-top: 50px;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+
+}
+
+.section {
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.section h1 {
+    padding: 0px;
+    line-height: 25px;
+}
